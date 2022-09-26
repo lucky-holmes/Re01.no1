@@ -1,46 +1,141 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>康文昌的在线HTML 教学小工具</title>
-    <style>  
-      body {
-        margin: 0;
-      }
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>哀沐涕</title>
+    <style>
+       li {
+            display:inline;
+        }
+        li {
+            float:left;
+        }
+        a {
+            display:block;
+            width:60px;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: Transparent color;
+        }
+        li {
+            float: left;
+        }
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        /*鼠标移动到选项上修改背景颜色 */
+        li a:hover {
+            background-color: #111;
+        }
+        .active {
+            background-color: #4CAF50;
+        }
+        /* 除了最后一个选项(last-child) 其他的都添加分割线 */
+        li {
+            border-right: 1px solid #bbb;
+        }
+ 
+        li:last-child {
+            border-right: none;
+        }
+        ul {
+            position: fixed;
+            top: 0;
+            width: 100%;
+}
     </style>
-  </head>
-  <body>
+</head>
+<style type="text/css">
+	body{
+		background: url(https://s1.328888.xyz/2022/09/25/Vg28F.jpg) no-repeat center center fixed;
+                /*兼容浏览器版本*/
+                -webkit-background-size: cover;
+                -o-background-size: cover;                
+                background-size: cover;
+	}
+	</style>
+<body>
+  <div class="biaotilan"     display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;>
     <div style="
-      background-color: #f1f1f1;
       text-align: center;
-      padding: 40px;
+      padding: 50px;
     ">
-      <img src='https://s1.328888.xyz/2022/08/05/jdqZn.jpg' alt="羊码号" width="80px" height="80px">
+      <img src="https://s1.328888.xyz/2022/08/12/6VTTk.png" alt="哀沐涕" width="80px" height="80px">
+      <audio controls height="100" width="100">
+        <source src="horse.mp3" type="audio/mpeg">
+        <source src="horse.ogg" type="audio/ogg">
+        <embed height="50" width="50" src="horse.mp3">
+      </audio>
     </div>
+    <ul>
+      <li><a href="1.html">主页</a></li>
+      <li><a href="2.html">新闻</a></li>
+      <li><a href="4.html">留言</a></li>
+      <li><a href="3.html">打赏</a></li>
+      <li><a href="5.html">下载</a></li>
+      <li><a href="6.html">视频</a></li>
+      <li><a href="7.html">联系</a></li>
+      <li style="float:right"><a class="active" href="8.html">关于</a></li>
+    </ul>
+    <video width="320" height="240" autoplay>
+      <source src="C:\Users\Administrator\Desktop891a237d10241f269f873004f4d2da21.mp4" type="video/mp4">
+      <source src="movie.ogg" type="video/ogg">
+    Your browser does not support the video tag.
+    </video>
     <div style="
       max-width: 700px;
-      margin: 30px auto;
+      margin: 20px auto;
       padding: 15px;
-      line-height: 1.7;
-      color: red;
+      line-height: 1.5;
+      color: rgb(62, 23, 172);
     ">
-      <h1>羊码号</h1>
-      <p>欢迎大家来到羊码号的个人网站</p>
-      <p>欢迎大家来到羊码号的个人网站</p>
-      <p>欢迎大家来到羊码号的个人网站</p>
-      <p>欢迎大家来到羊码号的个人网站</p>
-      <p>欢迎大家来到羊码号的个人网站</p>
-      <p></p>
+      <p>欢迎大家来到哀沐涕的个人网站</p>
+      <p>超文本标记语言（英语：HyperText Markup Language，简称：HTML）是一种用于创建网页的标准标记语言。
+
+        您可以使用 HTML 来建立自己的 WEB 站点，HTML 运行在浏览器上，由浏览器来解析。
+        
+        在本教程中，您将学习如何使用 HTML 来创建站点。
+        
+        HTML 很容易学习！相信您能很快学会它！
+        
+        HTML 实例</p>
+      <p><a target="_blank" rel="noopener noreferrer" href="https://www.midorg.com/">元岛</a>是一个学习型DAO (分布式自治组织) 社区。
+
+        元岛有永久免费的新时代课程和团结互助的社群。
+        
+        你可以将元岛视为在线大学，有课程，有小组，有班级，有社团，等等。
+        
+        你可以将元岛视为游戏，写作业和参与活动都能获得经验值或积分，等级高的同学不仅能登上榜单，更能获得实际奖励。
+        
+        你可以将元岛视为无边界公司，可以自行或和他人合作进行商业项目。
+        
+        你也可以将元岛视为社区，这里都是一些团结友爱、热爱学习和积极向上的小伙伴，认识大家扩展你的生活边界。</p>
     </div>
     <div style="
-     background-color: #f1f1f1;
+     color: rgb(0, 0, 0);
      text-align: center;
-     padding: 40px;
-     font-size: 12px;
+     padding: 5px;
+     font-size: 15px;
     ">
-      <p>羊码号</p>
-      <a href="https://www.midorg.com/">友情链接</a>
+      <p>哀沐涕
+      </p>
     </div>
-  </body>
+  </div>
+</body>
 </html>
